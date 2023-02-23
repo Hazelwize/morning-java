@@ -1,7 +1,7 @@
 // This code does not execute properly. Try to figure out why.
 
 public class Solution2 {
-    public static int multiply(int a, int b) {
+    public static Double multiply(Double a, Double b) {
         return a * b;
     } 
 }
