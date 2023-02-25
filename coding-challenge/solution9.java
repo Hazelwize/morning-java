@@ -8,11 +8,11 @@
 public class solution9 {
     public static int sum(int[] arr){
         int result = 0;
-        for(int i = 0; i < arr.length; i++){
-          if(arr[i] > 0){
-            result += arr[i];
+        for(int num: arr){
+          if(num > 0){
+            result += num;
           }
         }
         return result;
-    }    
+    } 
 }
